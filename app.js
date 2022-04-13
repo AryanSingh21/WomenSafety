@@ -25,10 +25,20 @@ const User = mongoose.model("User" , userSchema);
 
 const postSchema = {
     title: String,
-    content: String
+    content: String ,
   };
   
   const Post = mongoose.model("Post", postSchema);
+
+
+const joinSchema = new mongoose.Schema({
+  name : String,
+  Email : String ,
+  address : String ,
+  profession : String ,
+})
+
+const member = mongoose.model("member" ,joinSchema );
 
 app.get("/" , function(req , res){
    res.render("index");
@@ -73,6 +83,9 @@ app.get("/compose", function(req, res){
 app.get("/collab" , function(req , res){
     res.render("collab")
 })
+app.get("/map" , function(req , res){
+  res.render("map")
+})
   
   app.post("/compose", function(req, res){
     const post = new Post({
@@ -83,10 +96,37 @@ app.get("/collab" , function(req , res){
   
     post.save(function(err){
       if (!err){
-          res.redirect("/");
+          res.redirect("/blog");
       }
     });
   });
+
+app.get("/aboutus" , function(req , res){
+  res.render("aboutus")
+})
+
+app.post("/joinus" , function(req , res){
+  const name= req.body.Namej;
+  const email= req.body.Emailj;
+  const message= req.body.Messagej;
+  const profession= req.body.professionj;
+  
+  const Member = new member({
+    name : name,
+    Email : email,
+    address : message,
+    profession : profession,
+  })  
+  Member.save(function(err){
+    if(err){
+      console.log(err);
+    }else{
+      res.redirect("/thankyou")
+    }
+  })
+
+  // res.redirect("/joinus")
+})
 app.listen(3000  , function(req , res){
     console.log("server sucessfully started in 3000")
 })

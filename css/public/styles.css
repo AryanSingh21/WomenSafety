@@ -6,7 +6,7 @@
     background-position: center;
     filter: brightness(90%);
 
-    height: 87vh;
+    height: 80vh;
     width: 98.84vw;
     /* background-color: aqua; */
 }
@@ -14,16 +14,16 @@ h1{
     color: black;
 }
 .innerDiv{
-    height: 160px;
+    height: 560px;
     width: 350px;
     /* background-color: aqua; */
     position: absolute;
-    left: 1100px;
-    top: 170px;
+    left: 50px;
+    top: 630px;
     
 
 }
-.infoDiv{
+/* .infoDiv{
     height:200px ;
     width:550px ;
     background-color: aqua;
@@ -31,7 +31,7 @@ h1{
     left: 70px;
     
     top: 665px;
-}
+} */
 
 /* .hide1{
     opacity: 0%;
@@ -453,7 +453,7 @@ section {
   margin-top: 1rem;
   padding: 1rem 1.5rem;
   border: none;
-  background: rgba(173, 216, 230, 0.7);
+  background: rgba(16, 50, 24, 0.7);
   cursor: pointer;
   transition: background 0.15s;
 }
@@ -461,7 +461,7 @@ i {
   margin-right: 0.5rem;
 }
 .submit:hover {
-  background: rgba(173, 216, 230, 1);
+  background: rgb(20, 58, 39);
 }
 .form-group input[type="text"]:focus,
 .form-group input[type="email"]:focus,
@@ -513,7 +513,7 @@ h1, h2, h3 {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+/* h1 {
 	font-size: 3em;
 }
 
@@ -523,7 +523,7 @@ h2 {
 
 h3 {
 	font-size: 1em;
-}
+} */
 
 p, ul, ol {
 	margin-bottom: 1.8em;
@@ -780,4 +780,323 @@ hr {
 	margin: 0;
 	text-align: center;
 	line-height: normal;
+}
+.div11{
+    background-image: url(https://raw.githack.com/SochavaAG/example-mycode/master/pens/map-shadow/images/map.svg);
+    border: #fff;
+    border-width: 10px;
+    position: relative;
+    color: aliceblue;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    background-size: 1550px 750px;
+    
+}
+.mapind{
+    position: absolute;
+    top: 42vh;
+    left: 67vw;
+    height: 100px;
+    width: 150px;
+    opacity:0%;
+    transition: 2s;
+}
+.mapind:hover{
+    opacity: 100%;
+}
+.mapaus{
+    position: absolute;
+    top: 69vh;
+    left: 81vw;
+    height: 100px;
+    width: 150px;
+    opacity: 0%;
+    transition: 2s;
+}
+.mapaus:hover{
+    opacity: 100%;
+}
+.maprus{
+    position: absolute;
+    top:7vh ;
+    left:67vw ;
+    height: 110px;
+    width: 160px;
+    opacity: 0;
+    transition: 2s;
+}
+.maprus:hover{
+    opacity: 100%;
+}
+.mapuk{
+    position: absolute;
+    top:5vh ;
+    left: 40vw;
+    height: 150px;
+    width: 120px;
+    opacity: 0;
+    transition: 2s;
+}
+.mapuk:hover{
+    opacity: 100%;
+}
+.mapger{
+    position: absolute;
+    top:18vh ;
+    left: 50vw;
+    height: 100px;
+    width: 150px;
+    opacity: 0%;
+    transition: 2s;
+}
+.mapger:hover{
+    opacity: 100%;
+}
+.mapcan{
+    position: absolute;
+    top: 15vh;
+    left: 15vw;
+    height: 100px;
+    width: 150px;
+    opacity: 0;
+    transition: 2s;
+}
+.mapcan:hover{
+    opacity: 100%;
+}
+.mapus{
+    position: absolute;
+    top: 33vh;
+    left: 16vw;
+    height: 100px;
+    width: 150px;
+    opacity: 0;
+    transition: 2s;
+}
+.mapus:hover{
+    opacity: 100%;
+}
+.mapswi{
+    position: absolute;
+    top:34vh ;
+    left: 46vw;
+    height: 100px;
+    width: 150px;
+    opacity: 0;
+    transition: 2s;
+}
+.mapswi:hover{
+    opacity: 100%;
+}
+.mapchi{
+    position: absolute;
+    top:25vh ;
+    left:70vw ;
+    height: 100px;
+    width: 160px;
+    opacity: 0;
+    transition: 2s;
+}
+.mapchi:hover{
+    opacity: 100%;
+}
+.joinusimg{
+	position: absolute;
+	top: 200px;
+	left: 850px;
+	height: 400px;
+	width: 600px;
+}
+/* 
+primary hover - brighter blue = #45c5ea
+primary active - darker blue = #379fbc
+inactive/disabled elements - light gray = #afafaf
+accordian - darker gray = #24282c
+*/
+.aboutusimg{
+  height: 25vh;
+  width: 98.9vw;
+  background-color: #2d2d2d;
+  background-image: url("https://images.pexels.com/photos/9668877/pexels-photo-9668877.jpeg?cs=srgb&dl=pexels-cottonbro-9668877.jpg&fm=jpg");
+}
+.info-aboutus{
+  position: relative;
+  height: 700px;
+  width: 450px;
+  left: 200px;
+  top: 80px;
+
+}
+.info-img{
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  background-color: #222;
+  left:55vw;
+  top: 400px;
+  background-image: url("https://media.istockphoto.com/videos/stick-figure-color-pictogram-man-character-walk-climb-up-stairs-video-id1250039331?s=640x640");
+  /* background-size: 500px 900px; */
+  background-position: 1100px 700px;
+
+}
+.temp-img{
+  height: 38vh;
+  width: 98.9vw;
+  background-color: #2d2d2d;
+  background-image: url("https://www.incimages.com/uploaded_files/image/1920x1080/jonathan-mcintosh-flickr-1725x810_26899.jpg");
+  background-size: 1500px 800px;
+  background-position:0px 600px;
+  filter: brightness(40%);
+}
+.box-img1{
+  position: absolute;
+  top: 1100px;
+  left: 14vw;
+  height: 35vh;
+  width: 200px;
+  /* background-color: #1a1a1a; */
+  border: 1px solid;
+  box-shadow: 0.5px 5px #9a9a9a;
+}
+.box-img2{
+  position: absolute;
+  top: 1100px;
+  left: 34vw;
+  height: 35vh;
+  width: 200px;
+  /* background-color: #1a1a1a; */
+  border: 1px solid;
+  box-shadow: 0.5px 5px #9a9a9a;
+}
+.box-img3{
+  position: absolute;
+  top: 1100px;
+  left: 54vw;
+  height: 35vh;
+  width: 200px;
+  /* background-color: #1a1a1a; */
+  border: 1px solid;
+  box-shadow: 0.5px 5px #9a9a9a;
+}
+.box-img4{
+  position: absolute;
+  top: 1100px;
+  left: 74vw;
+  height: 35vh;
+  width: 200px;
+  /* background-color: #1a1a1a; */
+  border: 1px solid;
+  box-shadow: 0.5px 5px #9a9a9a;
+}
+
+/* about our team */
+.team-bg {
+	background-color: #f8f9fa;
+  height:90vh ;
+	overflow: hidden;
+}
+.team .section-title {
+	padding-bottom: 40px;
+}
+.team .section-title .main-team-subheading {
+	font-size: 14px;
+	font-weight: 500;
+	padding: 0;
+	line-height: 1px;
+	margin: 0 0 5px 0;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #aaaaaa;
+}
+.team .section-title .main-team-subheading::after {
+	content: "";
+	width: 120px;
+	height: 1px;
+	display: inline-block;
+	background: #556270;
+	margin: 4px 10px;
+}
+.team .main-team-heading {
+	margin: 0;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #556270;
+}
+.team .member {
+	position: relative;
+	box-shadow: 0px 2px 15px rgba(85, 98, 112, 0.08);
+	padding: 30px;
+	border-radius: 4px;
+	background: #fff;
+}
+.team .member .pic {
+	overflow: hidden;
+	width: 140px;
+	border-radius: 4px;
+}
+.team .member .pic img {
+	transition: ease-in-out 0.3s;
+}
+.team .member:hover img {
+transform: scale(1.1);
+}
+.team .member .member-info {
+	padding-left: 30px;
+}
+.team .member .member-heading {
+	font-weight: 700;
+	margin-bottom: 5px;
+	font-size: 20px;
+	color: #556270;
+	line-height: 1.2;
+}
+.team .member span {
+	display: block;
+	font-size: 15px;
+	padding-bottom: 10px;
+	position: relative;
+	font-weight: 500;
+}
+.team .member span::after {
+	content: '';
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 1px;
+	background: #dee2e6;
+	bottom: 0;
+	left: 0;
+}
+.team .member .member-para {
+	margin: 10px 0 0 0;
+	font-size: 14px;
+}
+.team .member .social {
+	margin-top: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+.team .member .social a {
+	transition: ease-in-out 0.3s;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	width: 32px;
+	height: 32px;
+	background: #8795a4;
+}
+.team .member .social a + a {
+margin-left: 8px;
+}
+.team .member .social a:hover {
+	background: #41A1FD;
+}
+.team .member .social a .team-icon {
+	color: #fff;
+	font-size: 16px;
+	margin: 0 2px;
 }
