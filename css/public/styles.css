@@ -932,10 +932,10 @@ accordian - darker gray = #24282c
   position: absolute;
   height: 300px;
   width: 400px;
-  background-color: #222;
+  /* background-color: #222; */
   left:55vw;
   top: 400px;
-  background-image: url("https://media.istockphoto.com/videos/stick-figure-color-pictogram-man-character-walk-climb-up-stairs-video-id1250039331?s=640x640");
+  /* background-image: url("https://media.istockphoto.com/videos/stick-figure-color-pictogram-man-character-walk-climb-up-stairs-video-id1250039331?s=640x640"); */
   /* background-size: 500px 900px; */
   background-position: 1100px 700px;
 
